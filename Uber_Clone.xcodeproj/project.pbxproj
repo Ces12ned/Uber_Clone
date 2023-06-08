@@ -18,6 +18,7 @@
 		0A6B366C2A3145C200004CAE /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B366B2A3145C200004CAE /* LocationSearchView.swift */; };
 		0A6B366E2A3149EE00004CAE /* LocationSearchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B366D2A3149EE00004CAE /* LocationSearchResultsCell.swift */; };
 		0A6B36702A315E4100004CAE /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B366F2A315E4100004CAE /* LocationSearchViewModel.swift */; };
+		0AC20BD22A3264AD00D2343A /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC20BD12A3264AD00D2343A /* MapViewState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0A6B366B2A3145C200004CAE /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		0A6B366D2A3149EE00004CAE /* LocationSearchResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsCell.swift; sourceTree = "<group>"; };
 		0A6B366F2A315E4100004CAE /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		0AC20BD12A3264AD00D2343A /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		0A6B365A2A311B8A00004CAE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0AC20BD12A3264AD00D2343A /* MapViewState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				0A6B36702A315E4100004CAE /* LocationSearchViewModel.swift in Sources */,
 				0A6B366C2A3145C200004CAE /* LocationSearchView.swift in Sources */,
 				0A6B36622A31252500004CAE /* LocationManager.swift in Sources */,
+				0AC20BD22A3264AD00D2343A /* MapViewState.swift in Sources */,
 				0A6B366A2A31446100004CAE /* MapViewActionButton.swift in Sources */,
 				0A6B366E2A3149EE00004CAE /* LocationSearchResultsCell.swift in Sources */,
 				0A6B36492A311B1B00004CAE /* Uber_CloneApp.swift in Sources */,
