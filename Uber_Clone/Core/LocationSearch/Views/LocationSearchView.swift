@@ -42,7 +42,7 @@ struct LocationSearchView: View {
                     
                     TextField("   Current location", text: $startLocationText)
                         .frame(height: 30)
-                        .background(Color(.systemGroupedBackground))
+                        .background(Color(.systemGray5))
                         .padding(.trailing)
                     
                     TextField("   Where to?", text: $viewModel.queryFragment)
@@ -80,8 +80,9 @@ struct LocationSearchView: View {
                 }
             }
             
-        }.background(.ultraThinMaterial)
-         
+        }
+        .background(Color.theme.backgroundColor)
+            
     }
 }
 
