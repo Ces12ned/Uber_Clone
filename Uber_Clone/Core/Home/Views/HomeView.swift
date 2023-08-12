@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     @State private var mapState = MapViewState.noInput
+    @Binding var showMenu: Bool
     @EnvironmentObject var locationViewModel: LocationSearchViewModel
     
     
@@ -36,10 +37,7 @@ struct HomeView: View {
                         }
                 }
                 
-                
-                    
-                
-                MapViewActionButton(mapState: $mapState)                .padding(.leading)
+                MapViewActionButton(mapState: $mapState, showMenu: $showMenu)                .padding(.leading)
                     .padding(.top)
             }
             
@@ -62,6 +60,6 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView(showMenu: .constant(false))
     }
 }

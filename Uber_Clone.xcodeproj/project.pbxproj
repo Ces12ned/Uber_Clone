@@ -24,6 +24,10 @@
 		0A6B36702A315E4100004CAE /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B366F2A315E4100004CAE /* LocationSearchViewModel.swift */; };
 		0A7906BF2A3BA9150098DD32 /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7906BE2A3BA9150098DD32 /* RideRequestView.swift */; };
 		0AC20BD22A3264AD00D2343A /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC20BD12A3264AD00D2343A /* MapViewState.swift */; };
+		0AF22F2A2A870BF200B2D1A9 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF22F292A870BF200B2D1A9 /* SideMenuView.swift */; };
+		0AF22F2C2A870BFF00B2D1A9 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF22F2B2A870BFF00B2D1A9 /* SideMenuRowView.swift */; };
+		0AF22F2E2A870C1000B2D1A9 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF22F2D2A870C1000B2D1A9 /* SideMenuViewModel.swift */; };
+		0AF22F342A87585500B2D1A9 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF22F332A87585500B2D1A9 /* Root.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,10 @@
 		0A6B366F2A315E4100004CAE /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 		0A7906BE2A3BA9150098DD32 /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
 		0AC20BD12A3264AD00D2343A /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
+		0AF22F292A870BF200B2D1A9 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		0AF22F2B2A870BFF00B2D1A9 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
+		0AF22F2D2A870C1000B2D1A9 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		0AF22F332A87585500B2D1A9 /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				0A6B36482A311B1B00004CAE /* Uber_CloneApp.swift */,
+				0AF22F332A87585500B2D1A9 /* Root.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -107,9 +116,10 @@
 		0A6B36572A311B7500004CAE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				0A7906BD2A3BA9030098DD32 /* Trips */,
-				0A6B36642A312F7200004CAE /* LocationSearch */,
 				0A6B36632A312F5E00004CAE /* Home */,
+				0AF22F262A87095500B2D1A9 /* Side Menu */,
+				0A6B36642A312F7200004CAE /* LocationSearch */,
+				0A7906BD2A3BA9030098DD32 /* Trips */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -202,6 +212,32 @@
 			path = Trips;
 			sourceTree = "<group>";
 		};
+		0AF22F262A87095500B2D1A9 /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0AF22F282A870BD900B2D1A9 /* SideMenuViewModel */,
+				0AF22F272A870BB600B2D1A9 /* Views */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		0AF22F272A870BB600B2D1A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AF22F292A870BF200B2D1A9 /* SideMenuView.swift */,
+				0AF22F2B2A870BFF00B2D1A9 /* SideMenuRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0AF22F282A870BD900B2D1A9 /* SideMenuViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0AF22F2D2A870C1000B2D1A9 /* SideMenuViewModel.swift */,
+			);
+			path = SideMenuViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,10 +310,14 @@
 			files = (
 				0A6B36702A315E4100004CAE /* LocationSearchViewModel.swift in Sources */,
 				0A6B366C2A3145C200004CAE /* LocationSearchView.swift in Sources */,
+				0AF22F342A87585500B2D1A9 /* Root.swift in Sources */,
+				0AF22F2A2A870BF200B2D1A9 /* SideMenuView.swift in Sources */,
 				0A6B36622A31252500004CAE /* LocationManager.swift in Sources */,
+				0AF22F2E2A870C1000B2D1A9 /* SideMenuViewModel.swift in Sources */,
 				0A7906BF2A3BA9150098DD32 /* RideRequestView.swift in Sources */,
 				0A43A4092A3C425C002525D6 /* Double.swift in Sources */,
 				0AC20BD22A3264AD00D2343A /* MapViewState.swift in Sources */,
+				0AF22F2C2A870BFF00B2D1A9 /* SideMenuRowView.swift in Sources */,
 				0A6B366A2A31446100004CAE /* MapViewActionButton.swift in Sources */,
 				0A6B366E2A3149EE00004CAE /* LocationSearchResultsCell.swift in Sources */,
 				0A43A40D2A3C54C8002525D6 /* Color.swift in Sources */,
